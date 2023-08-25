@@ -8,7 +8,7 @@ public class PairsInArray {
             for(int j = i + 1; j<arr.length; j++){
                 System.out.print("(" + current + "," + arr[j] + ")");
             }
-                System.out.print(" ");
+                System.out.println();
         }
     }
     public static void main(String[] args) {
@@ -16,3 +16,5 @@ public class PairsInArray {
         getPairArray(arr);
     }
 }
+
+// Total pairs = n(n-1) / 2
