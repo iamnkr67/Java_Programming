@@ -28,7 +28,6 @@ public class Sort012s {
         int[] numbers = {0,1,0,2,0,1,1,0,1,1,1,0,0,1,2,0,1,2};
         getSort(numbers);
 
-        for(int i = 0; i<numbers.length; i++)
-            System.out.print(numbers[i] + " ");
+        for (int number : numbers) System.out.print(number + " ");
     }
 }
