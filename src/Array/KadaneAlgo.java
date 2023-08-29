@@ -24,10 +24,12 @@ public class KadaneAlgo {
 
 
 /*
+
 Kadane's Algorithm [ time complexity = O(n) ]
 ----------------------------------
      +ve  +   +ve  = +ve  (favourable situation)
      +ve  +   -ve(small negative)  = +ve (fav. situation)
      +ve(small positive) +   -ve(big negative)  = -ve (unfavourable situation) if happens make it "zero"
 ----------------------------------
+
  */
